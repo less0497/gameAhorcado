@@ -1,0 +1,39 @@
+.inactive{
+    display: none;
+}
+
+.wordCircle{
+    pointer-events: none;
+    background-color: rgba(250, 235, 215, 0.05);
+    
+    
+}
+
+@font-face {
+    font-family: "sketchup";
+    src: url(../font/SKETCHUP\ FREE\ TRIAL.ttf);
+}
+@font-face {
+    font-family: "school";
+    src: url(../font/TheStudentsTeacher-Regular.ttf);
+}
+
+.front{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top:0px;
+    left:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.front___div{
+    height: 700px;
+    width: 1000px;
+    display: flex;  
+}
+
+
+

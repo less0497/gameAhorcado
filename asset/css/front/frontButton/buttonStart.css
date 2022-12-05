@@ -1,0 +1,19 @@
+
+.front__button__start{
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9px;
+
+}
+.front__button__start p{
+    margin: 0;
+    position: absolute;
+    text-align: center;
+    font-family: "school";
+    color: black;
+    font-size: 2.5rem;
+    padding-top: 8px;
+}
+

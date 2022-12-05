@@ -1,0 +1,20 @@
+.play{
+    position: absolute;
+    top: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.play-div{
+    height: 90%;
+    width: 90%;
+    display: flex;  
+    align-items: center;  
+}
+
+
+.inactive{
+    display: none;
+}

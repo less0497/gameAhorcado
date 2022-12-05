@@ -1,0 +1,26 @@
+.front__logo-text{
+    height: 120px;
+    width: auto;
+    position: relative;
+}
+
+.front__logo__text{
+    color: aliceblue;
+    font-family: "sketchup";
+    text-align: center;
+    font-size: 6rem;
+    letter-spacing: 0.4rem;    
+    margin: 0;
+    
+
+}
+.front__logo__guion{
+    top:0%;
+    color: rgb(224, 224, 13);
+    font-family: "school";
+    font-size: 6rem;
+    letter-spacing: 0.42rem;
+    margin: 0;
+    position: absolute;
+    bottom: 0px;
+}

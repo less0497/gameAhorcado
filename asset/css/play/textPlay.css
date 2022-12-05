@@ -1,0 +1,24 @@
+.textPlay{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.word{
+    background-color:rgba(0, 0, 0, 0);
+    border: none;
+    cursor: none;
+    color: rgb(125, 240, 167);
+    font-family: "school";
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    resize:none
+}
+.container{
+    position: relative;
+}

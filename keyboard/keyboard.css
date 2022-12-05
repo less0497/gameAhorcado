@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "school";
+    src: url(../asset/font/TheStudentsTeacher-Regular.ttf);
+}
+* {
+    font-family: "school";
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+#container{
+    width: 80%;
+}
+#letras {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#letras>span {
+    color: azure;
+    font-family: "school";
+    font-size: 3rem;
+    border: 1px solid none;
+    padding:10px;
+    width: 65px;
+    margin:2px;
+    text-align: center;
+    /* border-radius: 50%; */
+    box-sizing: border-box;    
+}
+
+#letras>span:hover {
+    position:relative;
+    top: 1px;
+    left: 1px;
+    cursor: pointer;
+} 

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JUEGO AHORCADO</title>
+    <link rel="stylesheet" href="asset/css/front.css">
+    <link rel="stylesheet" href="asset/css/front/frontButton/buttonChosse.css">
+    <link rel="stylesheet" href="asset/css/front/frontButton/buttonStart.css">
+    <link rel="stylesheet" href="asset/css/front/frontbutton.css">
+    <link rel="stylesheet" href="asset/css/front/frontLogo/logoImg.css">
+    <link rel="stylesheet" href="asset/css/front/frontLogo/logoText.css">
+    <link rel="stylesheet" href="asset/css/front/frontLogo.css">
+    <link rel="stylesheet" href="asset/css/background.css">
+    <link rel="stylesheet" href="asset/css/background/backgroundImg.css">
+    <link rel="stylesheet" href="asset/css/background/backgroundOpacity.css">
+    <link rel="stylesheet" href="asset/css/play.css">
+    <link rel="stylesheet" href="asset/css/play/imgPlay.css">
+    <link rel="stylesheet" href="asset/css/play/textPlay.css">
+    <link rel="stylesheet" href="keyboard/keyboard.css">
+    <link rel="stylesheet" href="asset/css/mediaqueries.css">
+    <link rel="stylesheet" href="asset/css/play/winLose/winLose.css">
+    <link rel="stylesheet" href="asset/css/play/winLose/win/win.css">
+    <link rel="stylesheet" href="asset/css/play/winLose/lose/lose.css">
+
+</head>
+<body>
+    <section class="background">
+        <img class="background__img" src="asset/img/background.jpg" alt="">
+        <div class="background__opacity"> </div>
+    </section>
+
+    <header class="front">
+        <div class="front___div">
+            <section class="front__logo" >
+                <img class="front__logo__img"  src="asset/img/imagen.svg" alt="LogoAhorcado">
+                <div class="front__logo-text ">
+                    <p class="front__logo__text">AHORCADO</p>
+                    <p class="front__logo__guion">________ </p>
+                </div>
+            </section>
+
+            <section class="front__button">
+                <div class="front__button__start hand" onclick="clickStart()">
+                    <img src="asset/img/button_yellow.svg" alt="background button">
+                    <p>START</p>
+                </div>
+
+            </section>
+        </div>
+    </header>
+
+    <main class="play inactive">
+        <div class="play-div">
+            <section class="imgPlay">
+                <img src="asset/img/playImgCompleto.svg" alt="body" class="imgPlay__complet">
+                <img src="asset/img/playImgCara.svg " alt="face" class="imgPlay__face inactive">
+                <img src="asset/img/playImgCuerpo.svg" alt="body" class="imgPlay__body inactive">
+                <img src="asset/img/playImgArm1.svg" alt="arm" class="imgPlay__arm1 inactive" >
+                <img src="asset/img/playImgArm2.svg" alt="arm2" class="imgPlay__arm2 inactive" >
+                <img src="asset/img/playImgleg.svg" alt="leg" class="imgPlay__leg1 inactive" >
+                <img src="asset/img/playImgleg2-01.svg" alt="leg2" class="imgPlay__leg2 inactive" >
+            </section>
+
+            <section class="textPlay">  
+                <textarea class="word " id="" readonly></textarea>
+                <div id="container" class="container ">
+                    <div id="teclado" class="teclado">
+                        <div id="letras"></div>
+                    </div>
+                </div>
+                <section class="win inactive">
+                    <div class="win-div">
+                        <p>¡Bien Hecho!</p>
+                        <div class="win___button">
+                            <div class="win___button__menu hand" onclick="buttonWinLose()">
+                                <img src="asset/img/button_yellow.svg" alt="button  menu">
+                                <p>MENU</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="lose inactive">
+                    <div class="lose-div">
+                        <p class="lose_text">¡PERDISTE !</p>
+                        <div class="lose___button">
+                            <div class="lose___button__menu hand" onclick="buttonWinLose()">
+                                <img src="asset/img/button_yellow.svg" alt="button  menu">
+                                <p>MENU</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </div>
+    </main>
+    
+    <script src="js/script.js"></script>
+</body>
+
+</html>
